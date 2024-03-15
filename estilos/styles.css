@@ -1,7 +1,7 @@
 body{
     width: 100vw;
     height: 99wh;
-    background-color: rgb(101, 159, 254);
+    background-color: rgb(20, 84, 140);
 }
 a{
     text-decoration: none;
@@ -11,7 +11,7 @@ a{
     position: absolute;
     font-size: 3vi;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(6, 6, 127);
+    color: rgb(255, 255, 255);
     top: 2vi;
     left: 4vi;
 }
@@ -20,7 +20,7 @@ a{
     position: absolute;
     font-size: 2vi;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 58, 128);
+    color: rgb(255, 255, 255);
     top: 12vi;
     left: 8vi;
 }
@@ -29,7 +29,7 @@ a{
     display: flex;
     font-size: 2vi;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: green;
+    color: rgb(255, 255, 255);
     top: 16vi;
     left: 9vi;
 }
@@ -38,7 +38,7 @@ a{
     font-size: 2vi;
     display: flex;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: green;
+    color: rgb(255, 255, 255);
     top: 20vi;
     left: 9vi;
 }
@@ -47,7 +47,7 @@ a{
     position: absolute;
     font-size: 2vi;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: green;
+    color: rgb(255, 255, 255);
     top: 24vi;
     left: 9vi;
 }
@@ -55,7 +55,7 @@ a{
     position: absolute;
     font-size: 2vi;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: green;
+    color: rgb(255, 255, 255);
     top: 34vi;
     left: 9vi;
 }
@@ -64,7 +64,7 @@ a{
     position: absolute;
     font-size: 2vi;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: green;
+    color: rgb(255, 255, 255);
     top: 42vi;
     left: 7vi;
 }
@@ -72,7 +72,7 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     position: absolute;
-    border: green 0.2vi solid;
+    border: rgb(14, 160, 208) 0.3vi solid;
     background-color: rgb(132, 175, 255);
     border-radius: 1vi;
     top: 2vi;
@@ -80,20 +80,21 @@ a{
     width: 66vi;
     height: 35vi;
     padding: 6vi 2vi;
+    overflow: auto;
 }
 .titulo2{
     position: absolute;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2vi;
-    color: rgb(6, 6, 127);
+    color: #ffffff;
     top: 1vi;
     left: 2vi;
 }
 .cuadros{
     position: relative;
     margin: 0vi 0vi 5vi;
-    border: green 0.1vi solid;
-    background-color: #bef6be;
+    border: rgb(0, 38, 128) 0.1vi solid;
+    background-color: #bedaf6;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1vi;
     text-align: center;
@@ -109,22 +110,22 @@ a{
     height: 10vi;
 }
 .cuadrito{
-    border: #4aab4a 0.3vi solid;
+    border: #4a4cab 0.2vi solid;
     border-radius: 1vi;
     position: relative;
-    left: -0.3vi;
-    width: 15vi;
+    left: -0.4vi;
+    width: 15.5vi;
     height: 7vi;
     background-color: rgb(255, 255, 255);
 }
 .textoA{
     position: absolute;
     padding: 0.5vi;
-    background-color: #28ac28 ;
+    background-color: #2873ac ;
     color: white;
     top: 4.2vi;
     left: 10vi;
     justify-content: center;
     text-align: center;
-    border: #8effee 0.2vi solid;
+    border: #8ed4ff 0.2vi solid;
 }
