@@ -1,24 +1,130 @@
-
+body{
+    width: 100vw;
+    height: 99wh;
+    background-color: rgb(101, 159, 254);
+}
+a{
+    text-decoration: none;
+}
 .titulo{
+    display: flex;
+    position: absolute;
+    font-size: 3vi;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(6, 6, 127);
+    top: 2vi;
+    left: 4vi;
+}
+.todos{
+    display: flex;
+    position: absolute;
+    font-size: 2vi;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 58, 128);
+    top: 12vi;
+    left: 8vi;
+}
+.abrigos{
+    position: absolute;
+    display: flex;
+    font-size: 2vi;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    top: 16vi;
+    left: 9vi;
+}
+.camisetas{
+    position: absolute;
+    font-size: 2vi;
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    top: 20vi;
+    left: 9vi;
+}
+.pantalones{
+    display: flex;
     position: absolute;
     font-size: 2vi;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: green;
-    top: 2vi;
-    left: 4vi;
-}
-.abrigos{
-
-}
-.camimsetas{
-
-}
-.pantalones{
-
+    top: 24vi;
+    left: 9vi;
 }
 .carritos{
-
+    position: absolute;
+    font-size: 2vi;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    top: 34vi;
+    left: 9vi;
 }
 .derechos{
-    
+    display: flex;
+    position: absolute;
+    font-size: 2vi;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    top: 42vi;
+    left: 7vi;
+}
+.pagina2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: absolute;
+    border: green 0.2vi solid;
+    background-color: rgb(132, 175, 255);
+    border-radius: 1vi;
+    top: 2vi;
+    left: 27vi;
+    width: 66vi;
+    height: 35vi;
+    padding: 6vi 2vi;
+}
+.titulo2{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vi;
+    color: rgb(6, 6, 127);
+    top: 1vi;
+    left: 2vi;
+}
+.cuadros{
+    position: relative;
+    margin: 0vi 0vi 5vi;
+    border: green 0.1vi solid;
+    background-color: #bef6be;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1vi;
+    text-align: center;
+    border-radius: 2vi;
+    width: 15vi;
+    height: 16vi;
+}
+.imagenes{
+    margin: 0.5vi;
+    position: relative;
+    border-radius: 2vi;
+    width: 10vi;
+    height: 10vi;
+}
+.cuadrito{
+    border: #4aab4a 0.3vi solid;
+    border-radius: 1vi;
+    position: relative;
+    left: -0.3vi;
+    width: 15vi;
+    height: 7vi;
+    background-color: rgb(255, 255, 255);
+}
+.textoA{
+    position: absolute;
+    padding: 0.5vi;
+    background-color: #28ac28 ;
+    color: white;
+    top: 4.2vi;
+    left: 10vi;
+    justify-content: center;
+    text-align: center;
+    border: #8effee 0.2vi solid;
 }
