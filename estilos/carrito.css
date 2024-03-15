@@ -70,7 +70,7 @@ a{
 }
 .pagina2{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     position: absolute;
     border: rgb(14, 160, 208) 0.3vi solid;
     background-color: rgb(132, 175, 255);
@@ -80,7 +80,8 @@ a{
     width: 66vi;
     height: 35vi;
     padding: 6vi 2vi;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .titulo2{
     position: absolute;
@@ -92,43 +93,79 @@ a{
 }
 .cuadros{
     position: relative;
-    margin: 0vi 0vi 5vi;
+    margin: 0vi 0vi 0.5vi;
     border: rgb(0, 38, 128) 0.1vi solid;
     background-color: #bedaf6;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1vi;
-    text-align: center;
+    font-size: 1.5vi;
     border-radius: 2vi;
-    width: 15vi;
-    height: 16vi;
-}
-.imagenes{
-    margin: 0.5vi;
-    position: relative;
-    border-radius: 2vi;
-    width: 10vi;
+    width: 65vi;
     height: 10vi;
 }
-.cuadrito{
-    border: #4a4cab 0.2vi solid;
-    border-radius: 1vi;
+.imagenes{
     position: relative;
-    left: -0.4vi;
-    width: 15.5vi;
-    height: 7vi;
-    background-color: rgb(255, 255, 255);
+    left: 2vi;
+    border-radius: 2vi;
+    width: 8vi;
+    height:8vi;
 }
-.textoA{
-    position: absolute;
+.cuadrito{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 65vi;
+    height: 9vi;
+}
+.textoV{
+    position: relative;
     padding: 0.5vi;
     background-color: #2873ac ;
     color: white;
-    top: 4.2vi;
-    left: 10vi;
+    width: 15vi;
+    top: 4.5vi;
+    left: 1vi;
     justify-content: center;
     text-align: center;
     border: #8ed4ff 0.2vi solid;
 }
-@media (max-width: 820px){
-    
-}    
+.comprar{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: rgb(0, 38, 128) 0.1vi solid;
+    background-color: #bedaf6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vi;
+    border-radius: 2vi;
+    width: 30vi;
+    height: 6vi;
+    left: 35vi;
+    top: 0vi;
+}
+.T{
+    position: relative;
+    left: 2vi;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.textoC{
+    position: relative;
+    top: 1vi;
+    left: 3vi;
+    grid-column: 2;
+    grid-row: 1/2;
+    background-color: #2873ac ;
+    font-size: 1.5vi;
+    color: white;
+    width: 10vi;
+    height: 4vi;
+    justify-content: center;
+    text-align: center;
+    border: #8ed4ff 0.2vi solid;
+}
+
